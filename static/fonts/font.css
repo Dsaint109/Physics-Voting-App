@@ -1,0 +1,17 @@
+/*--
+	Author: David Saint;
+	Company: SaintsWebnology;
+	URL: www.saints.web;
+--*/
+@font-face {
+    font-family: 'Roboto-Regular';
+    src:url(roboto/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    src:url(roboto/Roboto-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Raleway';
+    src:url(Raleway/Raleway-ExtraLight.ttf) format('truetype');
+}

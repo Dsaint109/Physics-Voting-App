@@ -1,0 +1,59 @@
+html {
+	-webkit-app-region: drag;
+}
+body {
+	margin: 0;
+	font-family: 'Roboto-Light', sans-serif;
+	background: url('../img/bg.png') 0 0 no-repeat;
+	background-color: #1b1c2b;
+	-webkit-app-region: drag;
+}
+h1,h2{font-family: 'Raleway', comic-sans; color: #ffffff;}
+h4{font-family: 'Roboto-Regular', sans-serif; color: #f5f5f5; font-size: 16px;}
+h5{font-family: 'Roboto-Light', sans-serif; color: #f5f5f5; font-size: 15px;}
+/* Misc */
+.no-margin-bottom{margin-bottom: 0 !important}
+.no-padding{padding: 0 !important}
+input {color: #e0e0e0;}
+.contain {height: 100%; position: absolute; width: 100%; overflow-x: hidden;}
+.contain:before { 
+	content: "random-text";
+	-webkit-app-region: drag;
+	position: absolute;
+	height: 25px;
+	width: calc(100% - 100px);
+	color: transparent;
+	cursor: move;
+	top: 1px;
+}
+.header	{
+	color: #ffffff;
+	padding: 0 30px;
+	font-size: 18px;
+	font-family: 'Roboto-Regular';
+}
+.content {
+	color: #ffffff;
+	padding: 0 0 0 30px;
+	font-family: 'Raleway', comic-sans;
+	font-size: 60px;
+	margin-bottom: 25px;
+}
+.foot {
+	color: #ffffff;
+	padding: 0 30px;
+	font-size: 18px;
+	font-family: 'Roboto-Light';
+}
+
+/* label color */
+.input-field label {}
+/* label focus color */
+.input-field input[type=email]:focus + label, .input-field input[type=number]:focus + label, .input-field input[type=password]:focus + label, .input-field input[type=text]:focus + label {
+	color: #64b5f6;
+}
+/* label underline focus color */
+.input-field input[type=email]:focus, .input-field input[type=number]:focus, .input-field input[type=password]:focus, .input-field input[type=text]:focus {
+	border-bottom: 1px solid #42a5f5;
+	box-shadow: 0 1px 0 0 #42a5f5;
+}
